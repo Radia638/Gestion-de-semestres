@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Premier Page</title>
+<script type="text/javascript" src="premierpage.js"></script>
+<style type="text/css">
+	body,html,*{
+	margin: 0;
+	padding: 0;
+	font-family: "Lucida Grande","Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "Sans-serif";
+    box-sizing: border-box;
+}
+#slider{
+	background-color: #ccc;
+	width: 100%;
+	height: 550px;
+	position: relative;
+
+}
+#img{
+	width: 100%;
+	height: 550px;
+	position: absolute;
+}
+#btn_left{
+	height: 550px;
+	width: 100px;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+}
+#btn_right{
+	height: 550px;
+	width: 100px;
+	right: 0px;
+	top: 0px;
+	position: absolute;
+
+}
+.left{
+	position: absolute;
+	top: 40%;
+	left: 10px;
+	width: 60px;
+	height: 70px;
+   opacity: 0.4;
+}
+.left:hover{
+	opacity: 1;
+
+}
+.right{
+	position: absolute;
+	top: 40%;
+	right: 10px;
+	width: 60px;
+	height: 70px;
+   opacity: 0.4;
+}
+.right:hover{
+	opacity: 1;
+}
+h2{
+	background: grey;
+	text-align: center;
+	color: #fff;
+}
+h1{
+	text-align: center;
+	color: blue;
+
+}
+p{
+	text-align: center;
+	font-family: 'Lucida Console', Monaco, monospace;
+	font-style: italic;
+}
+p>span{
+	font-weight: bold;
+	text-decoration: underline;
+}
+#choix{
+	margin-right:200px;
+	margin-left: 300px;
+	color: grey;
+	font-style: oblique;
+
+
+
+}
+#sub{
+	text-align: center;
+
+}
+a{
+	text-decoration: none;
+}
+
+
+button{
+	margin: 3%;
+	background: transparent;
+    border:2px solid #f00a3c;
+    border-radius: 50px;
+    padding: 10px 40px;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 700;
+    position: relative;
+    transition: 2s;
+
+
+}
+button:hover{
+	color: #f00a3c;
+    padding: 10px 60px;
+    transition: 2s;
+
+}
+
+</style>
+</head>
+<body>
+	<footer>
+
+	<div id="slider">
+		<img src="estsb3.jpg" id="img">
+
+		<div id="btn_left"><img src="left.jpg" class="left" onclick="slider(-1);"></div>
+		<div id="btn_right"><img src="right.jpg" class="right" onclick="slider(1);"></div>
+		
+	</div>
+	<h2>ECOLE SUPERIEURE DE TECHNOLOGIE SIDI BENNOUR</h2><br><br><br>
+	<h1>Bienvenu a notre site</h1><br><br>
+	<p>
+		ce site est existe pour gerer tous les semestres de  filière <span>Genie Informatique</span> dans l'ècole supérieure de technologie sidi bennour 
+	</p><br>
+
+	<div id="sub">
+		<p id="choix">
+		si vous voullez voir tous les information sur vous semestres cliquer ici<br>
+	</p>
+	<button type="submit"><a href="C:\Users\Meraim\Desktop\Gestion de semestres\index2.html">Enter</a></button>
+</div>
+
+
+	
+
+
+</body>
+</html>

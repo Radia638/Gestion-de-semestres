@@ -1,0 +1,119 @@
+body,html,*{
+	margin: 0;
+	padding: 0;
+	font-family: "Lucida Grande","Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "Sans-serif";
+    box-sizing: border-box;
+}
+#slider{
+	background-color: #ccc;
+	width: 100%;
+	height: 550px;
+	position: relative;
+
+}
+#img{
+	width: 100%;
+	height: 550px;
+	position: absolute;
+}
+#btn_left{
+	height: 550px;
+	width: 100px;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+}
+#btn_right{
+	height: 550px;
+	width: 100px;
+	right: 0px;
+	top: 0px;
+	position: absolute;
+
+}
+.left{
+	position: absolute;
+	top: 40%;
+	left: 10px;
+	width: 60px;
+	height: 70px;
+   opacity: 0.4;
+}
+.left:hover{
+	opacity: 1;
+
+}
+.right{
+	position: absolute;
+	top: 40%;
+	right: 10px;
+	width: 60px;
+	height: 70px;
+   opacity: 0.4;
+}
+.right:hover{
+	opacity: 1;
+
+h2{
+	background: grey;
+	text-align: center;
+	color: #fff;
+}
+h1{
+	text-align: center;
+	color: blue;
+
+}
+p{
+	text-align: center;
+	font-family: 'Lucida Console', Monaco, monospace;
+	font-style: italic;
+}
+p>span{
+	font-weight: bold;
+	text-decoration: underline;
+}
+#choix{
+	margin-right:200px;
+	margin-left: 300px;
+	color: grey;
+	font-style: oblique;
+
+
+
+}
+#sub{
+	padding: 6%;
+	text-align: center;
+	clear: left; 
+}
+button{
+	margin: 3%;
+	background: transparent;
+    border:2px solid #f00a3c;
+    border-radius: 50px;
+    padding: 10px 40px;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 700;
+    position: relative;
+    transition: 2s;
+
+}
+button:hover{
+	color: #f00a3c;
+    padding: 10px 60px;
+    transition: 2s;
+
+}
+
+
+
+
+
+
+
+
+
+
+
